@@ -24,6 +24,11 @@
       "favicon": "./assets/favicon.png"
     },
     "backgroundColor": "#0d0718",
-    "owner": "abbas1993s-team"
+    "owner": "abbas1993s-team",
+    "extra": {
+      "eas": {
+        "projectId": "9680d42d-dd50-4e2b-8a79-7eab65b428d1"
+      }
+    }
   }
 }
