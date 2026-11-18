@@ -23,6 +23,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "backgroundColor": "#0d0718"
+    "backgroundColor": "#0d0718",
+    "owner": "abbas1993s-team"
   }
 }
