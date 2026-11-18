@@ -1,0 +1,33 @@
+// [Spanish, Persian meaning, Persian pronunciation, emoji, example (es), example (fa)]
+export type Word = [string, string, string, string, string, string];
+
+export const WORDS: Word[] = [
+  ["Ciudad", "شهر", "سیوداد", "🏙️", "Vivo en una ciudad grande.", "من در یک شهر بزرگ زندگی می‌کنم."],
+  ["Pueblo", "روستا / شهر کوچک", "پوئبلو", "🏡", "Mi abuela vive en un pueblo pequeño.", "مادربزرگم در یک روستای کوچک زندگی می‌کند."],
+  ["Contacto con la naturaleza", "ارتباط با طبیعت", "کونتاکتو کون لا ناتورالثا", "🌿", "En el pueblo hay más contacto con la naturaleza.", "در روستا ارتباط بیشتری با طبیعت وجود دارد."],
+  ["Servicios públicos", "خدمات عمومی", "سروی‌سیوس پوبلیکوس", "🚑", "En la ciudad hay buenos servicios públicos.", "در شهر خدمات عمومی خوبی وجود دارد."],
+  ["Calidad de vida", "کیفیت زندگی", "کالیداد د بیدا", "✨", "Busco una mejor calidad de vida.", "به دنبال کیفیت زندگی بهتری هستم."],
+  ["Vida cultural", "زندگی فرهنگی", "بیدا کولتورال", "🎭", "Madrid tiene mucha vida cultural.", "مادرید زندگی فرهنگی پرباری دارد."],
+  ["Tiempo libre", "وقت آزاد", "تیمپو لیبره", "⏳", "En mi tiempo libre leo y paseo.", "در وقت آزادم کتاب می‌خوانم و قدم می‌زنم."],
+  ["Libertad", "آزادی", "لیبرتاد", "🕊️", "Valoro mucho la libertad.", "برای آزادی ارزش زیادی قائلم."],
+  ["Tranquilidad", "آرامش", "ترانکیلیداد", "🧘", "En el campo se disfruta de tranquilidad.", "در دل طبیعت می‌شود از آرامش لذت برد."],
+  ["Tráfico", "ترافیک", "ترافیکو", "🚦", "Hay mucho tráfico por la mañana.", "صبح‌ها ترافیک زیادی هست."],
+  ["Transporte", "حمل‌ونقل", "ترانسپورته", "🚇", "El transporte público es muy bueno.", "حمل‌ونقل عمومی خیلی خوب است."],
+  ["Coches", "ماشین‌ها", "کوچس", "🚗", "Hay demasiados coches en el centro.", "در مرکز شهر ماشین‌های زیادی هست."],
+  ["Viviendas", "مسکن / خانه‌ها", "بی‌بیندس", "🏘️", "Las viviendas son muy caras.", "خانه‌ها خیلی گران هستند."],
+  ["Tiendas", "مغازه‌ها", "تیندس", "🛍️", "Las tiendas abren a las diez.", "مغازه‌ها ساعت ده باز می‌شوند."],
+  ["Huerto", "باغچه سبزی و میوه", "اوئرتو", "🥕", "Mi abuelo tiene un huerto pequeño.", "پدربزرگم یک باغچه کوچک دارد."],
+  ["Precios", "قیمت‌ها", "پرثیوس", "🏷️", "Los precios han subido mucho.", "قیمت‌ها خیلی بالا رفته‌اند."],
+  ["Problemas", "مشکلات", "پروبلماس", "⚠️", "Tengo problemas con el ruido.", "با سروصدا مشکل دارم."],
+  ["Barato", "ارزان", "باراتو", "💸", "Este restaurante es barato.", "این رستوران ارزان است."],
+  ["Caro", "گران", "کارو", "💎", "Vivir en Madrid es caro.", "زندگی در مادرید گران است."],
+  ["Divertido", "سرگرم‌کننده / بامزه", "دیبرتیدو", "🎉", "La ciudad es muy divertida.", "شهر خیلی سرگرم‌کننده است."],
+  ["Aburrido", "خسته‌کننده / بی‌حوصله", "آبوریدو", "😴", "El pueblo me parece aburrido.", "روستا به نظرم کسل‌کننده می‌آید."],
+  ["Estresante", "استرس‌زا", "استرسانته", "😰", "Mi trabajo es muy estresante.", "کارم خیلی استرس‌زاست."],
+  ["Sostenible", "پایدار", "سوستنیبله", "♻️", "Quiero una vida más sostenible.", "یک زندگی پایدارتر می‌خواهم."],
+  ["Hacer amigos", "دوست پیدا کردن", "آثر آمیگوس", "🤝", "Es fácil hacer amigos en la universidad.", "در دانشگاه دوست پیدا کردن آسان است."],
+  ["Conocer gente", "با آدم‌ها آشنا شدن", "کونوثر خنته", "👥", "Me gusta conocer gente nueva.", "دوست دارم با آدم‌های جدید آشنا شوم."],
+  ["Encontrar trabajo", "کار پیدا کردن", "انکونترار ترباخو", "💼", "Es difícil encontrar trabajo en el pueblo.", "پیدا کردن کار در روستا سخت است."],
+  ["Tener ventajas", "مزیت داشتن", "تنر بنتاخاس", "👍", "Vivir en la ciudad tiene muchas ventajas.", "زندگی در شهر مزیت‌های زیادی دارد."],
+  ["Tener inconvenientes", "عیب / اشکال داشتن", "تنر این‌کونبنیِنتس", "👎", "Vivir en el pueblo tiene inconvenientes.", "زندگی در روستا اشکالاتی دارد."],
+];
